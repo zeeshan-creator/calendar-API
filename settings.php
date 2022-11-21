@@ -1,10 +1,10 @@
 <?php
 
 /* Google App Client Id */
-define('CLIENT_ID', '43161991761-jgajeqt6q9ldgtejbb7aehmpjftsisgo.apps.googleusercontent.com');
+define('CLIENT_ID', '43161991761-h60kkqsk7e5ipjavo8577asa1mr2okqs.apps.googleusercontent.com');
 
 /* Google App Client Secret */
-define('CLIENT_SECRET', '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');
+define('CLIENT_SECRET', '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');
 
 /* Google App Redirect Url */
 define('CLIENT_REDIRECT_URL', 'http://localhost/test/calendar-API-tutorial/google-login.php');

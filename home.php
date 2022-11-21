@@ -233,8 +233,11 @@ if (!isset($_SESSION['access_token'])) {
 				}
 			}
 
+			let searchParams = new URLSearchParams(window.location.search);
+			let param = searchParams.get('id')
 			// Event details - NEED TO ADD RECURRANCE HERE!
 			parameters = {
+				calendarId: param,
 				title: $("#event-title").val(),
 				event_time: {
 					start_time: $("#event-type").val() == 'FIXED-TIME' ? $("#event-start-time").val().replace(' ', 'T') + ':00' : null,
