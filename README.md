@@ -1,5 +1,7 @@
 # Google Calendar feature for _A Room In Town_
 
+Built using curl & ajax. But the other repo is built using libery.
+
 Thank you to https://usefulangle.com/post/58/google-calendar-api-create-update-delete-event-php for the tutorial that this web-app is based on.
 
 This is a fairly basic web-app that can perform the following functions:
